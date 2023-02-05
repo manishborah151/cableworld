@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!--// SITE META //-->
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="E:\html subline\projetc 2 store\image\favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Services</title>
+  <link rel="shortcut icon" type="image/x-icon" href="C:\Users\admin\Desktop\HTML\html subline\projetc 2 store\image\favicon.ico">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;  
+     font-family: "Istok Web", sans-serif; 
+   }
+   a{
+    text-decoration: none;
+   }
+   .parallax {
+  /* The image used */
+  background-image: url("E:/html subline/img/coding.jpg");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+   /*--NAVIGATION BAR STYLE--*/
+   .nav{
+     position:  ;
+     overflow: hidden;
+     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+     background-color: black;
+     width: 100%;
+
+   }
+   .nav a{
+
+     color: white;
+     float: left;
+     text-decoration: none;
+     font: 17px;
+
+     padding: 14px 40px;
+     text-align: center;
+
+   }
+   .nav a:hover{
+     background-color: gray;
+     color: black;
+   }
+   .nav a.active{
+     background-color:#ff6961 ;
+     color: black;
+   }
+   .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .nav a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: gray;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*--nav end--*/
+
+/*--BODY STYLE--*/
+.head{
+  text-align: center;
+}
+
+
+
+.gsupport a:hover{
+   opacity: 0.8;
+}
+.gsupport a{
+  text-align: center;
+  width: 33%;
+  float: left;
+  padding: 30px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom:50px ;
+
+}
+.gs1:hover{
+
+  background-color: black;
+  background-image: none;
+}
+.gs2:hover{
+  background-color: black;
+  background-image: none;
+}
+.gs3:hover{
+  background-color: black;
+  background-image: none;
+}
+.gs1{
+  background-image: url('E:/html subline/projetc 2 store/image/usbcab.jpg');
+  border-radius: 10px;
+
+}
+.gs2{
+  background-image: url('E:/html subline/projetc 2 store/image/keybodcable.jpg');
+  border-radius: 10px;
+  
+}
+
+.gs3{
+  background-image: url('E:/html subline/projetc 2 store/image/connector.jpg');
+  border-radius: 10px;
+}
+
+form input{
+  border-radius: 7px;
+  padding: 5px;
+}
+.orderstatus{
+  clear: both;
+  text-align: center;
+  padding: 20px;
+}
+.contactus{
+  text-align: center;
+  padding: 20px;
+}
+
+.container input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  background-color: #ff6961;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  text-align: center;
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row{
+  clear: both;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  padding: 0 16px;
+  text-align: center;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  text-align: center;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+
+
+/*--BODY end--*/
+
+
+
+
+/*FOOTER*/
+.footnav{
+  float:left;
+  width: 33.3%;
+  text-align: center;
+  text-decoration: none;
+  color: white; 
+}
+.footnav a{
+  color: white;
+  text-decoration:none;
+}
+.footcont{
+  float:left;
+  width: 33%;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.footlogo{
+  border-radius: 50%;
+  float:left;
+  width: 33%;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.foot img{
+  border-radius: 50%;
+ margin-top:30px ;
+  width: 100px;
+}
+.foot{
+  clear: both;
+  background-color: gray;
+  padding: 10px;
+  
+}
+.foot:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.social{
+  padding-bottom: 10px;
+  clear: both;
+  text-align: center;
+  color: white;
+
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .footnav, .footlogo , .footcont{
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+  <!--navigation bar-->
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="store.html">store</a>
+    <a class="active"  href="services.html">services</a>
+    <div class="dropdown">
+      <button class="dropbtn">help <p><i class="arrow down"></i></p></button>
+      <div class="dropdown-content">
+       <a href="orders.html">orders</a>
+       <a href="delivery.html">delivery detiails</a>
+       <a href="about.html">customer support</a>
+     </div>
+   </nav>
+   <!--nav xxx-->
+
+   <!--BODY-->
+   <div class="parallax"></div>
+
+   <h1 class="head" >GENERAL SUPPORT</h1>
+   
+
+
+   <div class="gsupport">
+    <a class="gs1" href="">USB Cables </a>
+    <a class="gs2" href="">Keyboard Cables</a>
+    <a class="gs3" href="">Accessories</a>
+   </div>
+
+   <div class="orderstatus">
+     <h2>ORDER STATUS</h2>
+     <p>You can use the following form to retrieve information about your current order status. To track your order please enter your Order ID and your E-Mail address bello. The order ID was send to you via your confermation email that you recived after your purchase. </p>
+     <br>
+
+     <form>
+  <label for="order ID">Order ID:</label>
+  <input type="text" id="orderid" name="orderid"placeholder="Your order ID..">
+  <label style=" margin-left: 20px; " for="email">E-Mail:</label>
+  <input type="text" id="email" name="email" placeholder="Your name.."><br>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+   </div>
+
+<div class="contactus">
+   <h2>CONTACT US</h2>
+   <p>If due to any reasion your query is not resorted feel feel to write down your question or dought in the box bellow. Our support team will contact you in a short time. Hope all your quries are resoloved.</p> 
+   <br>
+
+   <div class="container">
+  <div class="row">
+    <div class="column">
+      <form >
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <label for="lname">Email</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Email address..">
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</div>
+
+   <!--BODY end-->
+
+
+
+<!--footer-->
+<footer class="foot">
+    <div class="footlogo">
+      <img src="E:\html subline\projetc 2 store\image\kyara.jpg">
+    </div>
+ 
+    <div class="footnav">
+      <br><h4>ABOUT</h4>
+      <a href="">home<br></a>
+      <a href="">store<br></a>
+      <a href="">services<br></a>
+      <a href="">orders<br></a>
+      <a href="">delivery details<br></a>
+      <a href="">customer support<br></a>
+      <a href="">contact us<br></a><br>
+    </div>
+
+    <div class="footcont">
+      <h4>STORE</h4>
+      <p><i class="fa fa-fw fa-map-marker"></i>kyara</p>
+      <p><i class="fa fa-fw fa-phone"></i> 6001419617</p>
+      <p><i class="fa fa-fw fa-envelope"></i> manishborah151@gail.com</p><br>
+      <h4>WE ACCEPT</h4>
+      <p><i class="fa fa-fw fa-cc-amex"></i> paytm</p>
+      <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+      <p><i class="fa fa-fw fa-credit-card"></i> Debit Card</p>
+
+    </div>
+  </div>
+
+  <div class="social">
+      <br><i style="cursor: pointer ; padding-right: 20px;" class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+      <i style="cursor: pointer ; padding-right: 20px;" class="fa fa-instagram w3-hover-opacity w3-large"></i>
+
+      <i style="cursor: pointer ; padding-right: 20px;" class="fa fa-twitter w3-hover-opacity w3-large"></i>
+     </div>
+     <p style="text-align:center;color:white;background-color: black; font-family:Agency FB ">&copy;My Kyara Store Limited.All rights are reserved. </p>
+</footer>
+<!--footer end**-->
+
+
+
+
+    
+
+  
+
+
+
+
+
+</body>
+</html>

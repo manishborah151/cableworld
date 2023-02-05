@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!--// SITE META //-->
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="E:\html subline\projetc 2 store\image\favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>about us</title>
+  <link rel="shortcut icon" type="image/x-icon" href="C:\Users\admin\Desktop\HTML\html subline\projetc 2 store\image\favicon.ico">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;  
+     font-family: "Istok Web", sans-serif; 
+   }
+   a{
+    text-decoration: none;
+  }
+
+  /*--NAVIGATION BAR STYLE--*/
+  .nav{
+   position:  ;
+   overflow: hidden;
+   background-color: black;
+   width: 100%;
+
+ }
+ .nav a{
+
+   color: white;
+   float: left;
+   text-decoration: none;
+   font: 17px;
+
+   padding: 14px 40px;
+   text-align: center;
+
+ }
+ .nav a:hover{
+   background-color: gray;
+   color: black;
+ }
+ .nav a.active{
+   background-color:#ff6961 ;
+   color: black;
+ }
+ .dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.nav a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*-------body-----*/
+
+/* Style inputs */
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.left {
+  left: 25px;
+}
+
+.right {
+  right: 25px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 25px;
+}
+
+
+#gradient {
+  background: #999955;
+  background-image: linear-gradient(#DAB046 20%, #D73B25 20%, #D73B25 40%, #C71B25 40%, #C71B25 60%, #961A39 60%, #961A39 80%, #601035 80%);
+  margin: auto;
+  margin-top: 68px;
+  width: 100%;
+  height: 150px;
+}
+
+.back{
+  position: absolute;
+  background: #E9E2D0;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -270px;
+  padding-left: 20px;
+  border-radius: 10px;
+  width: 490px;
+  height: 250px;
+  z-index: -1;
+
+}
+
+
+
+#card {
+  position: absolute;
+  background: #E9E2D0;
+  left: 50%;
+  margin-top: -180px;
+  margin-left: -250px;
+  padding-left: 20px;
+  border-radius: 10px;
+  width: 450px;
+  height: 210px;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+
+}
+
+#card img {
+  width: 110px;
+  float: left;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top:10px;
+  margin-bottom: 5px;
+}
+
+#card h2 {
+  font-family: courier;
+  color: #333;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 19pt;
+  font-weight: bold;
+}
+
+
+#card p {
+  font-family: courier;
+  color: #555;
+  font-size: 15px;
+}
+
+#card span {
+  font-family: courier;
+}
+
+.container {
+  clear: both;
+  padding: 0 16px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 15px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ff6961;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row{
+  clear: both;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+
+}
+
+
+/*FOOTER*/
+.footnav{
+  float:left;
+  width: 33.3%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  
+  
+}
+.footnav a{
+  color: white;
+}
+.footcont{
+  float:left;
+  width: 33%;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.footlogo{
+  border-radius: 50%;
+  float:left;
+  width: 33%;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.foot img{
+  border-radius: 50%;
+  margin-top:30px ;
+  width: 100px;
+}
+
+
+
+
+.foot{
+  clear: both;
+  background-color: gray;
+  padding: 10px;
+  
+}
+.foot:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.social{
+  padding-bottom: 10px;
+  clear: both;
+  text-align: center;
+  color: white;
+
+}
+@media screen and (max-width: 600px) {
+  .footnav, .footlogo , .footcont{
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
+
+</style>
+</head>
+<body>
+ <!--navigation bar-->
+ <nav class="nav">
+  <a  href="index.html">Home</a>
+  <a href="store.html">store</a>
+  <a href="services.html">services</a>
+  <div class="dropdown">
+    <button class="dropbtn">help <p><i class="arrow down"></i></p></button>
+    <div class="dropdown-content">
+     <a href="orders.html">orders</a>
+     <a href="delivery.html">delivery detiails</a>
+     <a class="active" href="about.html">customer support</a>
+   </div>
+ </nav>
+ <!--nav xxx-->
+
+ <!------about header----->
+ <div class="about-section">
+  <h1>About Us</h1>
+  <p>My Kyara Store one time stop for all types of cables.Get premium quality cables the way you want it to be. </p>
+</div>
+
+<!-----body----->
+<h2 style="text-align:center">OUR TEAM</h2>
+
+
+<div id="gradient">
+</div>
+
+
+<div class="strap">
+ <div class="back">
+ </div>
+ <div id="card">
+  <img src="E:/html subline/projetc 2 store/image/img.jpg"/>
+  <h2>Manish Borah</h2>
+  <p style="color: gray; ">Founder/CEO/Desiner</p>
+  <p>MY KYARA LIMITED&copy;</p>
+  
+  <p>Student of BIT, Noida.</p>
+  <span class="left bottom">phn:(+91)6001419617</span>
+  <span class="right bottom">Adress:Assam,India</span>
+</div>
+<br>
+<br>
+<br>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+    <br>
+  </div>
+  <div class="row">
+    <div class="column">
+      <a href="https://www.google.com/maps/place/27%C2%B024'39.7%22N+95%C2%B036'56.2%22E/@27.4079329,95.6108401,14z/data=!4m15!1m8!3m7!1s0x373f2242e7f1b761:0x855e4d8008f6972!2zMjfCsDI0JzM5LjciTiA5NcKwMzYnNTYuMiJF!3b1!7e2!8m2!3d27.4110381!4d95.6156069!3m5!1s0x373f2242e7f1b761:0x855e4d8008f6972!7e2!8m2!3d27.4110381!4d95.6156069"><img src="E:/html subline/projetc 2 store/image/map.jpg" style="width:100%"></a>
+      
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <label for="email">E-Mail</label>
+        <input type="text" id="email" name="email" placeholder="Your E-Mail address..">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="foot">
+  <div class="footlogo">
+    <a href="index.html"><img src="E:\html subline\projetc 2 store\image\kyara.jpg"></a>
+  </div>
+  <br>
+  <div class="footnav">
+    <h4>ABOUT</h4>
+    <a href="">home<br></a>
+    <a href="">store<br></a>
+    <a href="">services<br></a>
+    <a href="">orders<br></a>
+    <a href="">delivery details<br></a>
+    <a href="">customer support<br></a>
+    <a href="">contact us<br></a><br>
+  </div>
+  <br>
+  <div class="footcont">
+    <h4>STORE</h4>
+    <p><i class="fa fa-fw fa-map-marker"></i>kyara</p>
+    <p><i class="fa fa-fw fa-phone"></i> 6001419617</p>
+    <p><i class="fa fa-fw fa-envelope"></i> manishborah151@gail.com</p><br>
+    <h4>WE ACCEPT</h4>
+    <p><i class="fa fa-fw fa-cc-amex"></i> paytm</p>
+    <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+    <p><i class="fa fa-fw fa-credit-card"></i> Debit Card</p><br>
+
+  </div>
+</div>
+
+<div class="social">
+  <i style="cursor: pointer ;padding-right: 20px;" class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+  <i style="cursor: pointer ; padding-right: 20px;" class="fa fa-instagram w3-hover-opacity w3-large"></i>
+
+  <i style="cursor: pointer ; padding-right: 20px;" class="fa fa-twitter w3-hover-opacity w3-large"></i>
+</div>
+<p style="text-align:center;color:white;background-color: black; font-family:Agency FB ; margin-bottom: -10px">&copy;My Kyara Store Limited.All rights are reserved.  </p>
+</footer>
+
+
+</body>
+</html>

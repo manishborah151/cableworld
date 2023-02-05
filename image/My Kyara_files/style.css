@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+ h1{
+ 	text-align: center;
+ }
+
+ h2 {
+	text-align: center;
+  font-family: Arial Rounded MT ;
+  font-size: 35px;
+}
+/*-------navigation bar -------*/
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	color: black;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+}
+.navbar img{
+	border-radius: 50%;
+	width: 30px;
+}
+
+/*-------navigation bar end-------*/
+
+/*-------header-------*/
+
+.header{
+  background: radial-gradient(#ffddde,#ffa9ac);
+}
+.header .row{
+	margin-top: 10px;
+}
+
+.container{
+	max-width:1300px ;
+	margin: auto;
+	padding-right: 25px;
+	padding-left: 25px;
+
+}
+.row{
+	display: flex;
+	align-items: center;
+	 flex-wrap: wrap ;
+    justify-content: space-around;
+}
+.col-2{
+	text-align: center;
+	flex-basis: 50%;
+	min-width: 320px;
+}
+.col-2 img{
+	max-width: 100%;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+} 
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+		
+
+}
+.btn{
+	display: inline-block;
+	background:red ;
+	color: whitesmoke;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right:10px ;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-top:5px ;
+	transition: background 0.5s;
+}
+.btn:hover{
+	opacity: 0.8;
+
+}
+
+/*-------header end-------*/
+
+
+/*-------catagories-------*/
+.col-3{
+	flex-basis:35% ;
+	padding: 10px;
+	min-width: 200px;
+  transition: transform 0.5s;
+	margin-bottom:50px ;
+}
+
+
+
+
+/*-------catagories end-------*/
+.title{
+	text-align: center;
+	margin: 0 auto 0px;
+	line-height: 150px ;
+	clear: both;
+}
+
+/*-----featured products------------*/
+
+
+
+.col-4{
+	flex-basis:35% ;
+	padding: 10px;
+	min-width: 200px;
+  transition: transform 0.5s;
+	margin-bottom:50px ;
+}
+.col-4 img{
+	width: 100%;
+}
+.checked {
+  color: red;
+}
+.col-4:hover{
+      transform: translatey(-5px);
+      background-color:#f0fafd ;
+    }
+  
+
+
+
+
+
+
+	
+
+
